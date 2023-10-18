@@ -62,7 +62,8 @@ a {
 }
 
 .containerTitle,
-.containerAttorneys {
+.containerAttorneys,
+.containerTestimony {
     display: flex;
     flex: 1;
     justify-content: center;
@@ -77,6 +78,13 @@ a {
 
 .containerAttorneys {
     background-color: #fcfcfd;
+    color: #161822;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.containerTestimony {
+    background-color: #67729e;
     color: #161822;
     flex-direction: column;
 }
@@ -180,4 +188,16 @@ h1 {
     font-weight: bold;
     font-size: 24px;
     margin: 10px;
+}
+
+.testimony {
+    padding: 200px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.testifier {
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
 }
